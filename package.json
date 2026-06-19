@@ -1,0 +1,53 @@
+{
+  "name": "agentram-mcp",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for AgentRAM. Persistent memory for AI agents.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "agentram-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agentram",
+    "ai-memory",
+    "agent-memory",
+    "claude",
+    "claude-desktop",
+    "anthropic",
+    "cline",
+    "cursor"
+  ],
+  "author": "Sean Markwei",
+  "license": "MIT",
+  "homepage": "https://agentram.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanmarkwei/agentram-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seanmarkwei/agentram-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
