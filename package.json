@@ -1,7 +1,8 @@
 {
   "name": "agentram-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Model Context Protocol server for AgentRAM. Persistent memory for AI agents.",
+  "mcpName": "io.github.seanmarkwei/agentram-mcp",
   "type": "module",
   "main": "dist/index.js",
   "bin": {

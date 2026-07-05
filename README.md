@@ -1,3 +1,5 @@
+<!-- mcp-name: io.github.seanmarkwei/agentram-mcp -->
+
 # agentram-mcp
 
 Model Context Protocol server for [AgentRAM](https://agentram.dev). Give your AI agents persistent memory in Claude Desktop, Cline, Cursor, and any other MCP-compatible client.
