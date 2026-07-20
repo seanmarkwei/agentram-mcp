@@ -28,7 +28,7 @@ Each non-free tool costs 1 credit. Reads and writes are the same price.
 
 ## Get an API key
 
-Sign up at [agentram.dev](https://agentram.dev). You get 100 free credits on signup. No credit card required.
+Sign up at [agentram.dev](https://agentram.dev). You get 1000 free credits on signup. No credit card required.
 
 ## Install in Claude Desktop
 
